@@ -1,0 +1,42 @@
+/*GUIA COMERCIAL*/
+
+.contenedorBuscador {
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+        
+}
+
+.contenedorCategorias {
+    display: flex;
+    justify-content: space-around;
+
+    .tarjetaCategoria {
+        text-align: center;
+        padding-bottom: 1px;
+
+        a {
+            text-decoration: none;
+            color: $color-botones;
+        }
+
+        i {
+            font-size: 2.5rem;
+            padding: 0 20px;
+
+            &:hover {
+                color: $color-fuente;
+                font-size: 3rem;
+                filter: drop-shadow(1px 1px 2px #598392);
+                transition-duration: 1s;
+            }
+        }
+
+        .categoria {
+            font-size: 0.8rem;
+            color: #eaf4f4;
+        }
+
+    }
+        
+}

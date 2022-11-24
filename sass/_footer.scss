@@ -1,0 +1,40 @@
+/*FOOTER*/
+
+.contenedorFooter {
+    background-color: $color-botones-secundario;
+    margin-top: auto;  
+    
+  }
+  
+  .tituloSeccion {
+    padding-top: 10px;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .redesSociales {
+    a {
+      text-decoration: none;
+      color: $color-botones;
+    }
+  
+    display: flex;
+    justify-content: center;
+  
+    i {
+      font-size: 1rem;
+      padding: 0 20px;
+
+      &:hover {
+        color: #000;
+        font-size: 1.1rem;
+        transition: 1s;
+      }
+    }
+  }
+  
+  .copy {
+    font-size: 0.7rem;
+    color:$color-fuente;
+    text-align: center;
+  }

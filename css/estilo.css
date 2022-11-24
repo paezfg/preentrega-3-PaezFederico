@@ -1,3 +1,158 @@
+/*FUENTE ROBOTO*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+/*BODY*/
+* {
+  max-width: 100%;
+}
 
+body {
+  background-color: #01161e;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/*ESTILO DE TEXTOS*/
+h1 {
+  color: #eff6e0;
+  padding: 20px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: justify;
+}
+
+h2 {
+  color: #eaf4f4;
+  padding: 20px;
+  font-size: 1.5rem;
+  font-weight: 400px;
+}
+
+p {
+  color: #aec3b0;
+  padding: 15px;
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-top: 10px;
+  text-align: justify;
+}
+p span {
+  font-weight: 600;
+  color: #eff6e0;
+}
+
+/*Fotos Historia*/
+.carousel-caption {
+  background-color: #01161e;
+  opacity: 75%;
+}
+.carousel-caption p {
+  font-weight: 200;
+  text-align: center;
+}
+
+.carousel {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+/*Formulario de contacto*/
+.contenedorFormulario {
+  background-color: #aec3b0;
+  opacity: 80%;
+}
+.contenedorFormulario .btn-primary {
+  background-color: #124559;
+}
+.contenedorFormulario .btn-primary:hover {
+  filter: brightness(50%);
+  transition: 2s;
+}
+.contenedorFormulario .btn-danger {
+  background-color: #598392;
+}
+.contenedorFormulario .btn-danger:hover {
+  filter: brightness(50%);
+  transition: 2s;
+}
+
+/*NAVBAR*/
+.container-fluid {
+  background-color: #124559;
+}
+.container-fluid .nav-link {
+  color: #eff6e0;
+}
+
+/*GUIA COMERCIAL*/
+.contenedorBuscador {
+  padding: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.contenedorCategorias {
+  display: flex;
+  justify-content: space-around;
+}
+.contenedorCategorias .tarjetaCategoria {
+  text-align: center;
+  padding-bottom: 1px;
+}
+.contenedorCategorias .tarjetaCategoria a {
+  text-decoration: none;
+  color: #124559;
+}
+.contenedorCategorias .tarjetaCategoria i {
+  font-size: 2.5rem;
+  padding: 0 20px;
+}
+.contenedorCategorias .tarjetaCategoria i:hover {
+  color: #aec3b0;
+  font-size: 3rem;
+  filter: drop-shadow(1px 1px 2px #598392);
+  transition-duration: 1s;
+}
+.contenedorCategorias .tarjetaCategoria .categoria {
+  font-size: 0.8rem;
+  color: #eaf4f4;
+}
+
+/*FOOTER*/
+.contenedorFooter {
+  background-color: #598392;
+  margin-top: auto;
+}
+
+.tituloSeccion {
+  padding-top: 10px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.redesSociales {
+  display: flex;
+  justify-content: center;
+}
+.redesSociales a {
+  text-decoration: none;
+  color: #124559;
+}
+.redesSociales i {
+  font-size: 1rem;
+  padding: 0 20px;
+}
+.redesSociales i:hover {
+  color: #000;
+  font-size: 1.1rem;
+  transition: 1s;
+}
+
+.copy {
+  font-size: 0.7rem;
+  color: #aec3b0;
+  text-align: center;
+}
 
 /*# sourceMappingURL=estilo.css.map */

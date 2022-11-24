@@ -1,0 +1,96 @@
+/*BODY*/
+
+* {
+    max-width: 100%;
+}
+
+body {
+    background-color: $color-fondo;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+/*ESTILO DE TEXTOS*/
+
+h1 {
+    color: $color-fuente-titulos;
+    padding:20px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: justify;
+
+}
+
+h2 {
+    color: $color-fuente-subtitulos;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: 400px;
+}
+
+p {
+    color: $color-fuente;
+    padding: 15px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: justify;
+
+
+    span {
+        font-weight: 600;
+        color: $color-fuente-titulos;
+    }
+    
+
+    
+}
+
+
+/*Fotos Historia*/
+
+.carousel-caption {
+    background-color: $color-fondo;
+    opacity: 75%;
+
+    p{
+        font-weight: 200;
+        text-align: center;
+    }
+}
+
+.carousel {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 10px;
+
+}
+
+/*Formulario de contacto*/
+
+.contenedorFormulario {
+    background-color: $color-fuente ;
+    opacity: 80%;
+    
+
+    .btn-primary {
+        background-color: $color-botones;
+
+        &:hover {
+            filter:brightness(50%);
+            transition: 2s;
+            
+        }
+    }
+
+    .btn-danger {
+        background-color: $color-botones-secundario;
+
+        &:hover {
+            filter: brightness(50%);
+            transition: 2s;
+        }
+    }
+}
